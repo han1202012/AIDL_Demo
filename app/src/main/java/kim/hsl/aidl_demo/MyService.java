@@ -35,7 +35,6 @@ public class MyService extends Service {
      * 创建 IMyAidlInterface.Stub 抽象类子类对象 , 实现其中的 3 个抽象方法
      * Binder 调用 transact 方法时 , 会调用 IMyAidlInterface.Stub 的 onTransact 方法
      * 在 IMyAidlInterface.Stub.onTransact 方法中会调用下面实现的抽象方法
-     *
      */
     private IMyAidlInterface.Stub stub = new IMyAidlInterface.Stub() {
         @Override
