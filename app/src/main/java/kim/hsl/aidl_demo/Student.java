@@ -1,5 +1,6 @@
 package kim.hsl.aidl_demo;
 
+import android.os.IBinder;
 import android.os.Parcel;
 import android.os.Parcelable;
 
@@ -54,3 +55,5 @@ public class Student implements Parcelable {
         return "name=" + name;
     }
 }
+
+
